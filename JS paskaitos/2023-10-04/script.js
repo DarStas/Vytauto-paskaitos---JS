@@ -193,3 +193,32 @@
 
 // sukuriam funkciją kuri skaičiuoja kas sekundę, tada įdedam į funkciją setInterval ir po kalblelio nurodom koks tas intervalas bus ms
 
+// Funkcija funkcijoje
+
+// function add(a, b) {
+//     console.log(a + b);
+// }
+
+// function useCallback (callback, a, b,) {
+//     console.log("before callback");
+//     callback(a, b);
+//     console.log("after callback");
+// }
+
+// useCallback(add, 10, 12);
+
+// const substract = (a, b,) => {
+//     console.log(a - b);
+// }
+
+// useCallback(substract, 55, 5);
+
+// useCallback(
+//     function(a, b) {
+//         console.log(a);
+//         console.log(b);
+//     },
+
+// "hello",
+// "world"
+// );

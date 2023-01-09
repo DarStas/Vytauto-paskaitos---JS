@@ -1,4 +1,5 @@
-import timerState from "./state.js"
+import timerState from "./state.js";
+import {formatTime} from "./utils.js";
 
 const element = {
     startButton: document.querySelector("#btn-start"),
@@ -18,7 +19,7 @@ function updateTimerText(timeElapsed){
 
     // valdandos 0 iki n
     const hours = Math.floor((timeElapsed / 60) / 60);
-    element.timerBox.textContent = `${hours}:${minutes}:${seconds}`;
+    element.timerBox.textContent = `${formatTime(hours)}:${formatTime(minutes)}:${formatTime(seconds)}`;
 
     console.log(hours, minutes, seconds);
 };
