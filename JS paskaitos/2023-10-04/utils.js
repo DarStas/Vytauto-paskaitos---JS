@@ -63,5 +63,4 @@ const t_mesagge =
 * <true> : <false>
 *
 * <condition|boolean> ? <true value> : <false value>
-* <condition|boolean> ? <true value> : <condition|boolean> ? <second true value> : <false value>
-*/
+* <condition|boolean> ? <true value> : <condition|boolean> ? <second true value> : <false value> 
