@@ -1,0 +1,39 @@
+.lap-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    margin-top: 2rem;
+}
+
+.timer {
+    min-height: 400px;
+    border: 1px solid black;
+    padding: 0.5rem;
+}
+
+.timer-clock {
+    border: 1px solid black;
+    padding: 0.5rem 1rem;
+}
+
+.button-group {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0.5rem;
+    cursor: pointer;
+}
+
+.button-group button {
+    
+}
