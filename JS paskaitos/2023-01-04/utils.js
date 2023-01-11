@@ -51,16 +51,17 @@ const t_mesagge =
 //   answer = time % 60;
 // } else {
 //   answer = time;
+// }
 
 // ternary expression
 // if time < 10 ? `0${time}` : if time > 60 ? time % 60 : time
 
-// const answer1 = time < 10 ? `0${time}` : time > 60 ? time % 60 : time;
+// const answer1 = time < 10 ? `0${time}` : time > 60 ? time % 60 : time
 
-/**
-* ? - nurodo kad buvo parašyta sąlyga
-* : - atskiria vertę if true nuo vertės if false formatu:
-* <true> : <false>
-*
-* <condition|boolean> ? <true value> : <false value>
-* <condition|boolean> ? <true value> : <condition|boolean> ? <second true value> : <false value> 
+
+// ? - nurodo kad buvo parašyta sąlyga
+// : - atskiria vertę if true nuo vertės if false formatu:
+// <true> : <false>
+
+// <condition|boolean> ? <true value> : <false value>
+// <condition|boolean> ? <true value> : <condition|boolean> ? <second true value> : <false value>
